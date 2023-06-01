@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './example/mycomponent';
+import ListTodo from './Todos/ListTodo';
 
 function App() {
   return (
@@ -7,19 +9,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       {/* <MyComponent/> */}
+       <ListTodo/>
       </header>
     </div>
   );
 }
 
 export default App;
+
+/// viết js trong html return 1 khối html
+// class and function component
